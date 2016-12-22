@@ -51,9 +51,9 @@ var new_stack = new stack();
 new_stack.add(5);
 new_stack.add(2);
 new_stack.add(7);
-console.log(new_stack.get_all()); //should return an array with 5, 2, 7
+console.log(new_stack.get_all()); //should return an array with 7, 2, 5
 console.log(new_stack.remove()); //should return 7
-console.log(new_stack.get_all()); //should return an array with 5, 2
+console.log(new_stack.get_all()); //should return an array with 2, 5
 new_stack.add(8);
 console.log(new_stack.get_length()); //should return 3
 console.log(new_stack.remove()); //should return 8
